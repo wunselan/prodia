@@ -1,0 +1,144 @@
+:root {
+    --yellow-1: #F6F578;
+    --yellow-2: #F6D743;
+    --green-1: #649D66;
+    --green-2: #06623B;
+    --black: #2a2a30;
+    --black-2: #5b5b5b;
+    --blue: #174754;
+    --blue-2: #4e8391;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.75rem !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        font-size: 0.85rem !important;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    background-color: #f9faff;
+    font-size: 1rem !important;
+}
+
+.rounded {
+    border-radius: 1rem !important;
+}
+
+.shadow {
+    box-shadow: 0 0.1rem .3rem rgba(0, 0, 0, .15) !important;
+}
+
+.bg-custom {
+    background-color: var(--yellow-2);
+}
+
+.bg-custom-2 {
+    background-color: var(--yellow-1);
+}
+
+.bg-custom-3 {
+    background-color: var(--blue);
+}
+
+.btn-2 {
+    min-height: 2.5rem !important;
+    min-width: 7.5rem !important;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;   
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .3rem !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-custom {
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+    color: #ffffff !important;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    background-color: var(--blue-2) !important;
+    border-color: var(--blue-2) !important;
+}
+
+.swal2-title {
+    font-weight: 300 !important;
+}
+
+.mt-custom {
+    margin-top: 5rem !important;
+}
+
+.py-custom {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.bg-img {
+    position: absolute !important;
+    right: 0;
+    bottom: 0;
+}
+
+.jumbotron {
+    background-color: var(--yellow-2);
+    height: 35rem;
+}
+
+.mb-min-custom {
+    margin-bottom: -141px !important;
+}
+
+.dropdown-menu {
+    margin-top: 10px !important;
+    border: 0px !important;
+    padding: 1rem 0 !important;
+    box-shadow: 0 0.1rem .3rem rgba(0, 0, 0, .15) !important;
+    min-width: 13rem !important
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--bs-dropdown-link-hover-color) !important;
+    background-color: var(--bs-dropdown-link-hover-bg) !important;
+}
+
+.dropdown-item {
+    padding: .6rem 1rem !important
+}
+
+.header-prodia {
+    background-color: var(--blue) !important;
+    color: #ffff !important; 
+    text-align: center;
+}
+
+.dataTables_wrapper>.row:last-child, .dataTables_wrapper>.row:first-child {
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+}
+
+.page-link {
+    border: 0px !important;
+    color: var(--blue);
+}
+
+.page-item.active .page-link {
+    background-color: var(--blue) !important;
+}
