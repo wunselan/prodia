@@ -21,27 +21,27 @@
                 <div class="card rounded shadow p-lg-2s p-1 mx-auto my-5 text-center">
                     <div class="card-body">
                         <div class="row justify-content-center">
-                            <div class="col-2">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                                 <h5><span class="value fw-bold"><?= @$cuaca[0]['coord_lat'] ?></span></h5>
                                 <p>Latitude</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                                 <h5 class="value fw-bold"><?= @$cuaca[0]['coord_lon'] ?></h5>
                                 <p>Longitude</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                                 <h5 class="value fw-bold"><?= @$cuaca[0]['timezone'] ?></h5>
                                 <p>Timezone</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                                 <h5 class="value fw-bold"><?= @$cuaca[0]['main_pressure'] ?></h5>
                                 <p>Pressure</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                                 <h5 class="value fw-bold"><?= @$cuaca[0]['main_humidity'] ?></h5>
                                 <p>Humidity</p>
                             </div>
-                            <div class="col-2">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                                 <h5 class="value fw-bold"><?= @$cuaca[0]['wind_speed'] ?></h5>
                                 <p>Wind Speed</p>
                             </div>
@@ -57,7 +57,7 @@
             <h4 class="fw-bold mb-3">List Weather</h4>
             <div class="row">
                 <div class="col-12">
-                    <table id="table-weather" class="table table-striped table-bordered">
+                    <table id="table-weather" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                             <tr class="header-prodia text-center">
                                 <th>ID</th>

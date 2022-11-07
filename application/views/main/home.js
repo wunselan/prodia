@@ -1,3 +1,5 @@
 $(document).ready( function () {
-    $('#table-weather').DataTable();
+    $('#table-weather').DataTable({
+        scrollX: true
+    });
 } );
