@@ -219,9 +219,7 @@ class Auth extends CI_Controller {
 		}
 
 		// Jika login gagal
-		$this->session->set_flashdata('error', 'Maaf, terdapat kesalahan pada saat login');
-		$this->session->unset_userdata('token');
-		$this->session->sess_destroy();
+		$this->session->set_flashdata('error', 'Email atau password salah, silahkan coba lagi');
 		redirect('masuk');
 	}
 
