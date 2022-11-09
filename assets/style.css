@@ -1,3 +1,44 @@
+body {
+    font-family: "Poppins", sans-serif !important;
+    background-color: #f9faff;
+    font-size: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) { 
+    body {
+        font-size: 0.65rem !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    body {
+        font-size: 0.65rem !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body {
+        font-size: 0.75rem !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body {
+        font-size: 0.85rem !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    body {
+        font-size: 0.95rem !important;
+    }
+}
+
 :root {
     --yellow-1: #F6F578;
     --yellow-2: #F6D743;
@@ -7,24 +48,6 @@
     --black-2: #5b5b5b;
     --blue: #174754;
     --blue-2: #4e8391;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 0.75rem !important;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    body {
-        font-size: 0.85rem !important;
-    }
-}
-
-body {
-    font-family: "Poppins", sans-serif !important;
-    background-color: #f9faff;
-    font-size: 1rem;
 }
 
 .rounded {
